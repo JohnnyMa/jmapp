@@ -11,5 +11,7 @@ https://dl-ssl.google.com/android/repository/platform-tools_r23.0.1-linux.zip
 
 
 echo 'export ANDROID_HOME="'$HOME'/workspace/android-sdk-linux"' >> ~/.bashrc
+
 echo 'export PATH="$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"' >> ~/.bashrc
+
 echo 'export JAVA_CMD="/usr/lib/jvm/java-7-openjdk-amd64/bin/java"' >> ~/.bashrc
